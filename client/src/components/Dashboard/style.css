@@ -1,0 +1,17 @@
+#noCurrentProjects {
+    margin-top: 30vh; 
+    height: 70vh;
+}
+
+#projectName {
+    font-weight: bold; 
+    font-size: 32px; 
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+    font-family: 'Poppins', sans-serif;
+}
+
+#dashboard {
+    position: relative;
+    z-index: 0;
+}

@@ -1,0 +1,36 @@
+#editBudget{
+    margin-top: 2%; 
+}
+
+.editBudgetLabel{
+    margin-bottom: 3%; 
+    display: inline; 
+    margin-right: 3%; 
+    border-radius: 5px; 
+}
+
+input{
+    height: 25px; 
+    margin-top: 4px; 
+    margin-bottom: 4px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px; 
+}
+
+#editBudgetFormCol{
+    text-align: left; 
+    margin-left: 30%; 
+}
+
+#submitBtn{
+    margin-top: 10%;
+    border-radius: 5px;
+    padding: 1%;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(68, 167, 68);
+    color: white;
+    margin-left: 15%; 
+    display: block; 
+    font-size: 12px; 
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.sideBtn{
+    margin-left: 0px !important;
+    width: 100%; 
+    background-color: transparent; 
+    border: none;
+    font-size: 16px; 
+    position: relative;
+    padding: 2px; 
+    color: white; 
+    text-align: left; 
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    padding-left: 1%; 
+    font-family: 'Muli', sans-serif;
+    z-index: 10;
+}
+
+.sideBtn:active{
+    background-color: rgb(30, 30, 71); 
+}
+
+.sideBtn:focus{
+    background-color:  rgb(30, 30, 71); 
+    border: none; 
+    outline: 0; 
+}
+
+#delete-project{
+    background-color: transparent; 
+    color: white; 
+    border: none; 
+    font-size: 12px;
+    position: relative;
+    z-index: 10;
+}
+
+/* .sideBtn {
+    height:30px;
+    width: 80%;
+    border-radius: 8px;
+    background-color:white;
+    color:rgb(5, 5, 41);
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    margin-bottom:5px;
+    margin-top:5px;
+} */

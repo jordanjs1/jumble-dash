@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.menuBtn{
+    /* border: none;  */
+    width: 53%; 
+    font-size: 16px; 
+    margin-top: 2%; 
+    background-color: rgb(5, 5, 41);
+    color: white; 
+    border-radius: 10px; 
+    height: auto; 
+    box-shadow: 1px;
+    font-family: 'Muli', sans-serif;
+    padding: 1%; 
+}

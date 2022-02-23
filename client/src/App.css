@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  min-height: 550px;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: visible;  
+  background-repeat: none;
+  background-size: 100vw 100vh; 
+}
+
+header {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  bottom: 65%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.App-logo {
+  width: 145px;
+}
+
+.error {
+  color: rgb(222, 62, 62);
+  font-size: 18px;
+  background: rgba(222,62,62,0.16);
+  padding: 10px;
+  border-radius: 35px;
+}
+

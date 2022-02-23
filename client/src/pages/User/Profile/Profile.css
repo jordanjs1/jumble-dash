@@ -1,0 +1,115 @@
+#active {
+    color:green
+}
+
+#profile-section{
+    overflow: hidden;
+}
+
+#menu-left-col{
+    background-color: rgb(5, 5, 41); 
+    background-image: url("../../Guest/Home/images/loadingbkgrnd.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.menu-left-col.animation{
+    transform: translateX(50vw) skew(-0.06turn, 18deg);
+    margin-top: -16%; 
+    transition: transform 800ms ease;
+}
+
+.menu-right-col.animation{
+    transform: translateX(-50vw);
+    transition: transform 800ms ease;
+}
+
+#menu-right-col {
+    padding-top: 30% !important; 
+    display: none;
+    text-align: center; 
+}
+
+#menu-right-col.show {
+    transform: translateX(-50vw);
+    display: inherit !important; 
+}
+
+.menuButton {
+    border: none !important; 
+}
+
+#home-form-grid.hide{
+    display: none; 
+}
+
+#dash{
+    display: none; 
+}
+
+#menuHeader{
+    height: 10%; 
+}
+
+.xl6menu{
+    height: 130%; 
+    transform: skew(-0.06turn, 18deg);
+    margin-top: -16%; 
+}
+
+.centerButtons{
+    width: 100% !important; 
+}
+
+.Side-logo{
+    width: 80%; 
+    margin-top: 5%; 
+}
+
+.Top-logo {
+    margin-top: 5px;
+    width: 100%;
+    height: 45px;
+}
+
+.menu-icon {
+    position: relative;
+    margin-top: 10px;
+    float: right;
+    height: 40px;
+}
+
+.newProjectCol {
+    background-color: rgb(5, 5, 41); 
+    border-right:2px solid lightgray;
+    text-align: center; 
+    height: 100%;
+}
+
+#newProjectTitle {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+#projectMenuButtons{
+    height: 40%; 
+    max-height: 40%; 
+    overflow: scroll; 
+    text-align: center; 
+    align-items: center; 
+}
+
+#projectMenuButtons::-webkit-scrollbar{
+    display: none; 
+    background: transparent; 
+}
+
+#projectMenuContainer{
+    height: 110%; 
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: block;
+    }
+}

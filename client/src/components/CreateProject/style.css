@@ -1,0 +1,13 @@
+.createBtn{
+    border: none; 
+    font-size: 26px !important; 
+    background-color: transparent; 
+    font-size: 16px; 
+    position: relative;
+    padding: 2px; 
+    color: white; 
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    text-align: center; 
+    margin-top: 10px;
+}

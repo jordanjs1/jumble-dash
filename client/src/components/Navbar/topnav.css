@@ -1,0 +1,25 @@
+.navbar {
+    height: 60px;
+    background-color: rgb(5, 5, 41); 
+    border-bottom:2px solid lightgray;
+    text-align: center; 
+}
+
+#navbar-menu {
+    z-index: 10;
+    position: relative;
+    max-height: 65vh;
+    background-color: rgb(5, 5, 61);
+    border-top: 2px solid lightgray;
+    text-align: center;
+    overflow: auto;
+}
+
+.menu-icon:hover {
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 50px;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+    cursor: pointer;
+}

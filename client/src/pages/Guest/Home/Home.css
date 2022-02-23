@@ -1,0 +1,35 @@
+#home-form-grid{
+    height: 100vh;
+    width: 100%; 
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+#home-form {
+    position: absolute; 
+    z-index: 999; 
+    width: 100%; 
+}
+
+#home-form-col{
+    padding-top: 35% !important; 
+    position: relative; 
+    text-align: center; 
+}
+
+#main-left-col{
+    background-color: rgb(5, 5, 41); 
+    background-image: url("images/loadingbkgrnd.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.App-logo{
+    width: 40% !important; 
+}
+
+.xl6home{
+    height: 130%; 
+    transform: skew(-0.06turn, 18deg);
+    margin-top: -18%; 
+}

@@ -1,0 +1,92 @@
+#inputName{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    margin-right:20px;
+    padding: 1%; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#submitNewProject{
+    margin-bottom: -1%; 
+    height:30px;
+    width: 25px;
+    font-size: 18px
+}
+
+#body {
+    padding-top: 25vh;
+    height: 75vh;
+}
+
+#body.animate{
+    transform: translateY(-35%);
+    transition: transform 800ms ease;
+}
+
+#budget-form{
+    margin-top: 25%; 
+}
+
+input{
+    border-radius: 5px; 
+    border: none; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.budget, .task{
+    width: 50%; 
+    height: 30px; 
+    margin-top: 2%; 
+
+}
+
+#newBudgetFormDiv{
+    margin-top: 7%; 
+    text-align: center; 
+    display: none; 
+}
+
+#newBudgetFormDiv.hide{
+    display: inherit; 
+}
+
+#newProjectHalfCol{
+    text-align: center; 
+}
+
+.Next-logo{
+    width: 30px; 
+}
+
+#styling{
+    display: inline; 
+}
+
+#submit {
+    margin-top: 10%; 
+    border-radius: 5px;
+    padding: 1%; 
+    background-color: rgb(68, 167, 68); 
+    color: white; 
+    padding: 1%;
+    height: 30px;
+    width: 120px;
+    font-size: 12px; 
+}
+
+#inputBudget, .budget, .task{
+    height: 25px;
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-family: 'Raleway', sans-serif;
+    padding: 1%; 
+}
+
+    .calendar {
+        border: 1px solid white !important;
+        margin-left:130px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+

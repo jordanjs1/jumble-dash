@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:800&display=swap");
+
+#test{
+    margin-right:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#newTask{
+    font-weight: bold; 
+    font-size: 17px; 
+}
+
+#assignees {
+    font-size: 14px; 
+}
+
+.assignees {
+    font-size: 12px; 
+}
+
+#newTaskList {
+    margin-top: 5%;
+}

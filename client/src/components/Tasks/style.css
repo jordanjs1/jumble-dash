@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
+#nameStyling{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(5, 5, 41) 
+}
+/* #moveRight{
+    position: relative;
+    right: 550px;
+    top: -250px;
+} */
+
+#moveRight{
+    padding-left: 25%;
+    padding-right: 25%; 
+    margin-top: 8%; 
+}
+
+.formFix{
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    padding: 1%; 
+
+}
+
+#buttnStyling{
+    margin-top: 10%; 
+    border-radius: 5px;
+    padding: 1%; 
+    height: 30px; 
+    width: 100px; 
+    background-color: rgb(68, 167, 68); 
+    color: white; 
+    font-size: 12px; 
+}
+
+#makeNewTasks{
+    margin-top: 10%; 
+}
+
+#taskList{
+    margin-bottom: 5%; 
+}
+
+#taskComplete{
+    border: none; 
+    border-radius: 7px; 
+    margin-top: 3%; 
+    padding: 3%; 
+}
+
+#completeImg{
+    width: 20px; 
+}

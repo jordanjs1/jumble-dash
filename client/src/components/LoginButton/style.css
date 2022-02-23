@@ -1,0 +1,30 @@
+.btn {
+	background-color: rgb(5, 5, 41);
+	border-radius: 8px; 
+	color: white; 
+	padding: 10px;
+	width: 20%;
+	font-size: 14px;
+	margin: 5% 0;
+	font-weight: 400;
+	margin-left: 2%; 
+	margin-right: 2%; 
+}
+.btn.left {
+	margin-right: 1%;
+}
+.btn.right {
+	margin-left: 1%; 
+}
+.btn.none {
+	float: none;
+}
+.btn:focus,
+.btn:active {
+	outline: none;
+	border: 1px solid #000;
+}
+.btn:hover {
+	cursor: pointer;
+	filter: brightness(95%);
+}

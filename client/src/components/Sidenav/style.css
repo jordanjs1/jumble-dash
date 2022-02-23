@@ -1,0 +1,7 @@
+.navBar{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 5, 41); 
+    border-right:2px solid lightgray;
+    text-align: center; 
+}
